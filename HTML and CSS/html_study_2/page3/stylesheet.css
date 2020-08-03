@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Add CSS for container */
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* Add CSS for top-wrapper */
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size: cover;
+    color: white;
+}
+
