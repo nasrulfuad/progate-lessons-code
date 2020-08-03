@@ -1,0 +1,32 @@
+// Add the $ninja-color variable here
+$ninja-color: #7579a3;
+
+.main {
+  margin: 20px;
+  border-radius: 5px;
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 5px;
+    // Replace the value of the text color with the $ninja-color variable
+    color: $ninja-color;
+    
+  }
+
+  .description {
+    color: #5f6977;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    // Replace the value of the background color with the $ninja-color variable
+    background-color: $ninja-color;
+    
+    display: inline-block;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

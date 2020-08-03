@@ -1,0 +1,35 @@
+// Add a $color argument 
+@mixin circle($color) {
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 10px;
+  text-align: center;
+  // Use the $color argument to change the background color
+  background-color: $color;
+}
+
+.main {
+  margin: 20px 10px;
+  color: #ffffff;
+  
+  .small {
+    // Add the value #20efae as an argument
+    @include circle(#20efae);
+    width: 34px;
+    height: 34px;
+  }
+  
+  .medium {
+    // Add the value #61cbff as an argument
+    @include circle(#61cbff);
+    width: 62px;
+    height: 62px;
+  }
+  
+  .large {
+    // Add the value #a070f7 as an argument
+    @include circle(#a070f7);
+    width: 90px;
+    height: 90px;
+  }
+}
