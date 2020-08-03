@@ -1,1 +1,1 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nasrulfuad/progate-lessons-code/master/dashboard.png"></p>
