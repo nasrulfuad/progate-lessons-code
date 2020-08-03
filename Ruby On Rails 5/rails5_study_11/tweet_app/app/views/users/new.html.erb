@@ -1,0 +1,24 @@
+<div class="main users-new">
+  <div class="container">
+    <div class="form-heading">Sign up</div>
+    <div class="form users-form">
+      <div class="form-body">
+        <% @user.errors.full_messages.each do |message| %>
+          <div class="form-error">
+            <%= message %>
+          </div>
+        <% end %>
+        
+        <%= form_tag("/users/create") do %>
+          <p>Name</p>
+          <input name="name" value="<%= @user.name %>">
+          <p>Email</p>
+          <input name="email" value="<%= @user.email %>">
+          <p>Password</p>
+          <input type="password" name="password" value="<%= @user.password %>">
+          <input type="submit" value="Sign up">
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
