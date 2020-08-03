@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Progate</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <div class="header-title">
+          <div id="top-btn" class="header-logo">Ken the Ninja's Room</div>
+        </div>
+        <div class="header-menu">
+          <ul class="header-menu-right">
+            <li>
+              <a href="#stamps">LINE Stamp</a>
+            </li>
+            <li>
+              <a href="#interview">Interview</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- top section -->
+    <div class="top-section gray-section">
+      <div class="top-inner">
+        <div class="container">
+          <div class="top-description">
+            <h2>Welcome to Ken the Ninja's Room!</h2>
+            <p>This is the daily life of Ken the Ninja, the official character of Progate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slider -->
+    <div id="stamps" class="stamps-section">
+      <div class="container">
+        <div class="section-title">
+          <h3>LINE Stamps Now On Sale!</h3>
+        </div>
+        <div id="stamp-carousel" class="carousel slide" data-ride="carousel" data-interval="2500"> 
+          <ol class="carousel-indicators">
+            <li data-target="#stamp-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#stamp-carousel" data-slide-to="1" class=""></li>
+            <li data-target="#stamp-carousel" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item stamp-box active">
+              <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp1.jpg" class="stamp-image">
+              <h4>The Ken the Ninja LINE Stamp has Arrived!</h4>
+            </div>
+            <div class="item stamp-box">
+              <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp2.jpg" class="stamp-image">
+              <h4>Programming stamps too!</h4>
+            </div>
+            <div class="item stamp-box">
+              <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp3.jpg" class="stamp-image">
+              <h4>And Ben the Baby Ninja!</h4>
+            </div>
+          </div> 
+        </div> 
+        <p>40 Different Stamps! Cute and easy to use! Ken the Ninja<br>
+          Buy them <a class="stamp-link" href="https://store.line.me/stickershop/product/1132359/ja" target="_blank"> here </a> from the LINE STORE!
+        </p>
+      </div>
+    </div>
+
+    <!-- interview -->
+    <div id="interview" class="interview-section">
+      <div class="interview-section-top gray-section">
+        <div class="container">
+          <div class="section-title">
+            <h3>Special Interview</h3>
+          </div>
+          <img class="interview-image" src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/interview_wanko.jpg">
+        </div>
+      </div>
+      <div class="interview-section-bottom">
+        <div class="container">
+          <div class="interview-box">
+            <h5>Q. How do you usually spend your time?</h5>
+            It is my daily routine to relax and take it easy at the Progate office in Shibuya, Japan. It is quite comfortable there. 
+            We are free to play music as loudly as we please. But I feel most satisfied when thinking of ways to promote Progate in the lounge area.  
+          </div>
+          <div class="interview-box">
+            <h5>Q. Do you really know how to program? What is your preferred programming language?</h5>
+            Well, I have completed every Progate lesson. And, I am considering becoming a professional software engineer, so I have purchased a Wankobook Pro.<br>
+            Ruby is my favorite language. It is my desire to create web apps using Rails.
+          </div>
+          <div class="interview-box">
+            <h5>Q. What kind of food do you like? Dog food, I presume?</h5>
+            I am very fond of ramen. Fortunately, there are many wonderful ramen shops near the office.<br>
+            Dog food does not suit me. Freshly cooked food is many times more delicious.
+          </div>
+          <div class="interview-box">
+            <h5>Q. Last question, could you tell us about what's next for you?</h5>
+            I will continue to promote Progate. Also, working on the LINE stamps. My allowance is comes from the LINE stamp sales. So, if everyone bought them, it would make me very happy.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact" class="contact-section gray-section">
+      <div class="contact-section-inner">
+        <div class="container">
+          <div class="section-title">
+            <h3>Contact Form</h3>
+          </div>
+          <div class="contact-form">
+            <h4>Send a Message</h4>
+            <form>
+              <div class="error-message"></div>
+              <input type="text" name="Name" placeholder="Name" class="contact-name">
+              <div class="error-message"></div>
+              <input type="text" name="email" placeholder="Email address" class="contact-email">
+              <div class="error-message"></div>
+              <textarea name="message" placeholder="Message"></textarea>
+              <button type="submit" class="btn btn-contact">Submit</button>
+            </form>
+          </div>
+          <div class="contact-about">
+            <h4>About Me</h4>
+            <p>Office pet at Progate.He likes to dress up like a ninja (he thinks it makes him look cuter).Ever since being summoned one day by a fairy at 4:30 in the morning, he has been at Progate.<br>
+              At Progate, he's really good at making people feel better, so he's in charge of student support.And, as the leader of student support, if there are feedback messages without responses he will start barking every night at 10pm.
+            </p>
+            <h4>Address</h4>
+            <p>
+              <i class="fa fa-map-marker"></i>9th floor, 6-19-20 Jingumae, Shibuya, Tokyo
+            </p>
+            <p>
+              <i class="fa fa-phone"></i>Phone: 03-6455-0950
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="follow-us">
+          <a href="https://www.facebook.com/Progate-742679992421539" class="social-icon" target='_blank'>
+            <span class="fa fa-facebook"></span>
+          </a>
+          <a href="https://twitter.com/progateEN" class="social-icon" target='_blank'>
+            <span class="fa fa-twitter"></span>
+          </a>
+        </div>
+        <div class="copyright">©2016-
+          Progate
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

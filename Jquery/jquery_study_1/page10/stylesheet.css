@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 80px;
+  background-color: #5dca88;
+  box-shadow: 0px 5px #279C56;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.btn:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}

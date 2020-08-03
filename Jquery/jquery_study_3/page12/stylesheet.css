@@ -1,0 +1,102 @@
+body {
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+  font-size: 14px;
+  color: #888;
+}
+
+
+h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+label {
+  font-size: 16px;
+}
+
+.container {
+  width: 720px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3 {
+  color: #555;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+h3::before, h3::after{
+  content: "";
+  background-color: #616161;
+  display:inline-block;
+  width: 40px;
+  height: 1px;
+  margin: 0 2rem;
+  vertical-align: middle;
+}
+
+.form .select-form, .form .text-form {
+  margin: 0;
+  padding: 0 10px;
+  border: none;
+  color: #202020;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.select-form {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.text-form {
+  width: 100%;
+  height: 75px;
+}
+
+.btn-submit {
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  background: #5983ff;
+  border: 1px solid #5979ff;
+  border-radius: 3px;
+  color: white;
+  padding: 12px 26px;
+  cursor: pointer;
+}
+
+.output-wrapper h4 {
+  font-size: 20px;
+  color: rgb(68, 68, 68);
+}
+
+.output-inner {
+  padding: 10px 20px;
+  border: 2px dotted;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
+
+.output-item {
+  font-size: 18px;
+  margin: 8px 0px;
+}
+
+.error-message {
+  color: #F51414;
+  height: 20px;
+}

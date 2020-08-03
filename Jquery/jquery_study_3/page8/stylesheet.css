@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #323A45;
+  transition: all .3s;
+}
+
+a:hover {
+  color: #D0472E;
+  text-decoration: none;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h4, h5 {
+  color: #444;
+  font-size: 18px;
+}
+
+h3:before, h3:after{
+  content: "";
+  background-color: #616161;
+  display:inline-block;
+  width: 40px;
+  height: 1px;
+  margin: 0 2rem;
+  vertical-align: middle;
+}
+
+.container {
+  width: 900px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-title {
+  color: #555;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.section-title h3 {
+  margin: 10px 0;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.section-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section-content p {
+  font-size: 22px;
+  color: #337090;
+  margin: 30px;
+}
+
+.section-content a {
+  font-size: 24px;
+  display: block;
+  text-align: right;
+}
+
+.output-wrapper {
+  margin-top: 70px;
+}
+
+.output-inner {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 2px dotted;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.output-item {
+  margin: 30px;
+}
+
+.output-inner span {
+  color: #2A374A;
+  font-size: 24px;
+}

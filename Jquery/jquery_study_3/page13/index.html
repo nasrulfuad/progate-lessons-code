@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Character Poll</h3>
+      <p class="call-to-action">Vote for the character you like!</p>
+      <div class="option-wrapper">
+        <div class="option-group">
+          <img class="option-image" src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/progate_baby_wanko.png">
+          <div class="option-btn" data-option="1">1. Ben the Baby</div>
+        </div>
+        <div class="option-group">
+          <img class="option-image" src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/progate_wanko.png">
+          <div class="option-btn" data-option="2">2. Ken the Ninja</div>
+        </div>
+        <div class="option-group">
+          <img class="option-image" src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/progate_hitsuji.png">
+          <div class="option-btn" data-option="3">3. Master White</div>
+        </div>
+      </div>
+      <form id="form" class="form">
+        <div class="form-group">
+          <div>Characters: </div>
+          <select id="select-form" class="select-form">
+            <option value="0">- Select -</option>
+            <option value="1">1. Ben the Baby Ninja</option>
+            <option value="2">2. Ken the Ninja</option>
+            <option value="3">3. Master White</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <p id="error-message" class="error-message"></p>
+          <div>Reason: </div>
+          <textarea id="text-form" class="text-form"></textarea>  
+        </div>
+        <button type="submit" class="btn btn-submit">Submit</button>
+      </form>
+      <div class="output-wrapper">
+        <h4>Results</h4>
+        <div class="output-inner">
+          <p class="output-item">The character you like: <span id="output-select"></span></p>
+          <p class="output-item">Reason: <span id="output-text"></span></p>  
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

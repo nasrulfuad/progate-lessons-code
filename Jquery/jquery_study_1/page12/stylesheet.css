@@ -1,0 +1,4 @@
+/* Change language-text's display property to none */
+.language-text {
+  display: none;
+}

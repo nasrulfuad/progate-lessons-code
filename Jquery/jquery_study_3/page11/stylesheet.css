@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #323A45;
+  transition: all .3s;
+}
+
+a:hover {
+  color: #5983ff;
+  text-decoration: none;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h4, h5 {
+  color: #444;
+  font-size: 18px;
+}
+
+h3::before, h3::after{
+  content: "";
+  background-color: #616161;
+  display:inline-block;
+  width: 40px;
+  height: 1px;
+  margin: 0 2rem;
+  vertical-align: middle;
+}
+
+label {
+  font-size: 16px;
+}
+
+.container {
+  width: 900px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-title {
+  color: #555;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.section-title h3 {
+  margin: 10px 0;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.section-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.call-to-action {
+  text-align: center;
+  font-size: 18px;
+}
+
+.option-wrapper {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.option-group {
+  margin-bottom: 12px;
+  margin: 20px auto;
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.option-image {
+  width: 120px;
+  height: auto;
+}
+
+.option-btn {
+  cursor: pointer;
+  width: 154px;
+  margin: 10px;
+  padding: 12px 0;
+  text-align: center;
+  background-color: #5dca88;
+  box-shadow: 0px 4px #279C56;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.option-btn:active{
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+
+.form .select-form, .form .text-form {
+  margin: 0;
+  padding: 0 10px;
+  border: none;
+  color: #202020;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 0;
+  box-shadow: none;
+  transition: all .3s;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.select-form {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.text-form {
+  width: 100%;
+  height: 75px;
+}
+
+.btn-submit {
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background: #5983ff;
+  border: 1px solid #5979ff;
+  color: white;
+  box-shadow: inset 0 1px 0 #5867ed;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  transition: all .3s;
+  padding: 12px 26px;
+}
+
+.output-inner {
+  padding: 10px 20px;
+  border: 2px dotted;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.output-item {
+  font-size: 18px;
+  margin: 8px 0px;
+}

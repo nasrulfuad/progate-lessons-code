@@ -1,0 +1,10 @@
+/* Change <h1>'s display property to none */
+h1 {
+  display: none;
+}
+
+
+/* Change <img>'s display property to none */
+img {
+  display: none;
+}
